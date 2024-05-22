@@ -1,16 +1,50 @@
-# taskmangerapp
+# 📋 Task Manager App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+The Task Manager App is a Flutter application designed to help users manage their tasks efficiently. The app features user authentication, task management, pagination, state management, local storage for persistent data, and comprehensive unit tests to ensure functionality.
 
-This project is a starting point for a Flutter application.
+![Task Manager App](screenshots/app_banner.png)
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User Authentication**: Secure login using the DummyJSON API.
+- **Task Management**: View, add, edit, and delete tasks.
+- **Pagination**: Efficiently fetch large numbers of tasks.
+- **State Management**: Manage state using the Provider package.
+- **Local Storage**: Persist tasks locally using SQLite.
+- **Unit Tests**: Comprehensive tests for critical functionalities.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+
+## 🛠 Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/task_manager_app.git
+   cd task_manager_app
+
+2.flutter pub get
+3.flutter run
+
+
+📂 Project Structure
+lib/
+|-- models/
+|   |-- task.dart
+|-- providers/
+|   |-- auth_provider.dart
+|   |-- task_provider.dart
+|-- screens/
+|   |-- login_screen.dart
+|   |-- task_list_screen.dart
+|   |-- task_detail_screen.dart
+|-- services/
+|   |-- local_storage_service.dart
+|-- main.dart
+test/
+|-- providers/
+|   |-- auth_provider_test.dart
+|   |-- task_provider_test.dart
+
